@@ -122,7 +122,7 @@ h1 {
     align-items: center;
     width: 100%;
     height: 700px;
-    background-image: url(https://github.com/Manu2689/Manuel_TRABAJOHTML/blob/main/img/Bosque-Nublado.jpg) ;
+    background-image: url(../img/Bosque-Nublado.jpg) ;
     
 }
 
@@ -217,15 +217,13 @@ img{
 }
 
 .phrase{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: green;
-    width: 30%;
+   display: grid;
+
 }
 .phrase1{
-    font-size: 2rem;
+    font-size: 3rem;
+    color: green;
+    font-weight: bold;
 }
 
 .separation{
@@ -316,13 +314,8 @@ img{
 #warning{
     color: green;
 }
-
-
 ol {
-    
     font-size: 17px;
-    
-    
 }
 ol li {
     margin-top: 15px;
@@ -331,7 +324,6 @@ ol li {
 
 .container {
     box-sizing: border-box;
-    
 }
 
 .flex-outer{
@@ -339,7 +331,6 @@ ol li {
     padding: 0;
     max-width: 800px;
     margin: 0 auto;
-    
 }
 
 .flex-outer li{
@@ -354,7 +345,6 @@ ol li {
     font-weight: 300;
     letter-spacing: .09em;
     text-transform: uppercase;
-   
 }
 
 
@@ -428,14 +418,15 @@ textarea{
     font-family: Verdana, sans-serif;
 }
 
+@media screen and (max-width: 1195px){
 
-
-
-
-
-
-
-
+    #map{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    
+    
+}
 
 
 /*----------------------------------------------------------------------------------------------
